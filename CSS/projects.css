@@ -1,0 +1,59 @@
+
+/*Styling of Container-1*/
+.Projects-container{
+    height: 39.5rem;
+    width:23.6rem;
+    background-color:var(--backgroung-color);
+    border-radius:12px;
+    margin-left:1rem;
+    margin-top:1rem;
+}
+
+.section-1{
+    background-color: #4A8B70;
+    height:19rem;
+    width:10rem;
+    border-radius:12px;
+    margin-left:1rem;
+    padding:0.5rem;
+    
+}
+
+.section-content{
+    font-size: 0.65em;
+    color:white;
+
+}
+
+.heading-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heart{
+    color:rgba(255, 51, 0, 0.82);
+}
+
+.heading-1{
+    color:white;
+}
+
+.heading-2{
+    color:white;
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-weight:700;
+}
+
+.project-heading{
+    font-weight:600;
+    font-size: 20px;
+    margin-left:1rem;
+    margin-bottom:1rem;
+
+}
+
+/*Styling section-2*/
