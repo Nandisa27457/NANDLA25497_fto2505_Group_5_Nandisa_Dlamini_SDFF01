@@ -1,0 +1,117 @@
+
+:root{
+  --font-family:Poppins;
+  --backgroung-color:#FFFFFF
+}
+img{
+  width:9rem;
+  height:9rem;
+  border-radius:12px;
+  margin-top:1.125rem;
+  margin-left:1rem;
+}
+
+.Bio-container{
+  height:9rem;
+  width:14rem;
+  background-color:var(--backgroung-color);
+  margin-top:1.125rem;
+  border-radius:12px;
+  padding-left:0.75rem;
+  padding-bottom:rem;
+  padding-top:1.5rem;
+  
+  
+
+}
+
+h1{
+  font-weight: 600;
+  font-family: Poppins;
+  font-size:1rem;
+  line-height:104%;
+  vertical-align: middle;
+  margin-bottom:0.6rem;
+}
+.Profile{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+
+}
+
+.bio-text{
+  font-size: 0.55em;
+  vertical-align: middle;
+  line-height: 151%;
+  font-weight:400;
+  color: #5C5C5C;
+  font-family: Poppins;
+}
+
+
+/*Styling of Profiency*/
+.Proficiency-container{
+    width:23.6rem;
+    height:13rem;
+    background-color:var(--backgroung-color);
+    border-radius:12px;
+    margin-left:1rem;
+    margin-top:1rem;
+    padding:0.75rem;
+  
+}
+
+h2{
+  font-weight: 600;
+  margin-bottom:1rem;
+  font-family:var(--font-family);
+  font-size:20px;
+}
+
+.sub-headings{
+  font-weight:600;
+  margin-bottom:0.7rem;
+  font-size:15px;
+}
+
+.progress-1{
+  height:1rem;
+  width:10rem;
+  background-color: rgba(0, 128, 96, 0.934);
+  margin-bottom:12px;
+  border-radius:4px;
+}
+.progress-2{
+height:1rem;
+  width:7rem;
+  background-color: rgba(0, 128, 96, 0.934);
+  margin-bottom:12px;
+   border-radius:4px;
+}
+.progress-3{
+  height:1rem;
+  width:4rem;
+  background-color: rgba(0, 128, 96, 0.934);
+   margin-bottom:12px;
+  border-radius:4px;
+}
+
+.progress-4{
+height:1rem;
+  width:4rem;
+  background-color: rgba(0, 128, 96, 0.934);
+   border-radius:4px;
+   ;
+}
+
+
+.language-container{
+  display:grid;
+  grid-template-columns:6.25rem 6.25rem;
+  
+}
+
+.language{
+  margin-bottom:4px;
+}
