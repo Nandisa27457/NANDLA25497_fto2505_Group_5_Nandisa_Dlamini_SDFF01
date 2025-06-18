@@ -1,0 +1,78 @@
+.education-container{
+    background-color:#FFFFFF;
+    height:56rem;
+    width:23.6rem;
+     border-radius:12px;
+    margin-left:1rem;
+    margin-top:1rem;
+    padding:1rem;
+
+}
+
+.main-heading{
+    margin-top:1rem;
+}
+
+.edu-section-container-1{
+    width:22rem;
+    height:20rem;
+    background-color: #4A8B70;
+    border-radius:12px;
+    display:grid;
+    color:white;
+    display: flex;
+    font-size:0.77em;
+    padding:1rem;
+}
+
+.header-content{
+    margin-top:3rem;
+    margin-left:2rem;
+}
+.date-span{
+    margin-bottom:1rem;
+    font-weight: 500;
+    font-family:Poppins;
+    
+    
+}
+.section-head{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size:1.5em;
+}
+
+#bullets li{
+    list-style-type:circle;
+}
+
+.list-content{
+    margin-left:2.5rem;
+    
+}
+
+.edu-section-container-2{
+    background-color: #E7F0EC;
+    width:22rem;
+    height:15rem;
+    border-radius:12px;
+    display:grid;
+    color:black;
+    display: flex;
+    font-size:0.77em;
+    padding:1rem;
+    margin-top:1rem;
+
+}
+.edu-section-container-3{
+    background-color: #E7F0EC;
+    width:22rem;
+    height:15rem;
+    border-radius:12px;
+    display:grid;
+    color:black;
+    display: flex;
+    font-size:0.77em;
+    padding:1rem;
+    margin-top:1rem;
+}
