@@ -2,7 +2,7 @@
 /*Styling of Container-1*/
 .projects-container{
     height: 45rem;
-    width:23.6rem;
+    width:25rem;
     background-color:var(--backgroung-color);
     border-radius:12px;
     margin-left:1rem;
