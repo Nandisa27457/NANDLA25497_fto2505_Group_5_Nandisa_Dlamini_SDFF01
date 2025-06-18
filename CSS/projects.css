@@ -22,6 +22,7 @@
 .section-content{
     font-size: 0.65em;
     color:white;
+    font-family: var(--font-family);
 
 }
 
@@ -37,15 +38,18 @@
 
 .heading-1{
     color:white;
+    font-family: var(--font-family);
 }
 
 .heading-2{
     color:white;
     margin-bottom: 1rem;
+    font-family: var(--font-family);
 }
 
 .title{
     font-weight:700;
+    font-family: var(--font-family);
 }
 
 .project-heading{
@@ -57,3 +61,25 @@
 }
 
 /*Styling section-2*/
+
+.section-2{
+    background-color: #E7F0EC;
+    height:19rem;
+    width:10rem;
+    border-radius:12px;
+    margin-left:1rem;
+    padding:0.5rem;
+}
+
+.title-2{
+    color:black;
+    font-weight:700;
+    font-family: var(--font-family);
+
+}
+
+.info-2{
+    color:black;
+    font-family: var(--font-family);
+    
+}
