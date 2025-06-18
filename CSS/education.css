@@ -6,8 +6,8 @@
     margin-left:1rem;
     margin-top:1rem;
     padding:1rem;
-
 }
+
 
 .main-heading{
     margin-top:1rem;
@@ -44,6 +44,7 @@
 
 #bullets li{
     list-style-type:circle;
+    
 }
 
 .list-content{
@@ -64,6 +65,7 @@
     margin-top:1rem;
 
 }
+
 .edu-section-container-3{
     background-color: #E7F0EC;
     width:22rem;
