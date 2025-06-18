@@ -1,7 +1,7 @@
 .logo-container{
-  margin-top:2.5rem;
+  margin-top:2.7rem;
   background-color: #FFFFFF;
-  width:24rem;
+  width:25rem;
   height:20rem;
   padding:1rem;
   border-radius: 12px;
@@ -9,8 +9,11 @@
   flex-direction: row;
   gap:1rem;
   margin-right:2rem;
-   
+  position: relative;
+  right:1rem;
+    
 }
+
 
 img.logo{
     width: 2rem;
