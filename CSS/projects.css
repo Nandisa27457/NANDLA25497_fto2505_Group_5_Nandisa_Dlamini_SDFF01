@@ -1,8 +1,8 @@
 
 /*Styling of Container-1*/
 .projects-container{
-    height: 45rem;
-    width:25rem;
+    height: 47rem;
+    width:80.2rem;
     background-color:var(--backgroung-color);
     border-radius:12px;
     margin-left:1rem;
@@ -12,8 +12,8 @@
 
 .section-1{
     background-color: #4A8B70;
-    height:19rem;
-    width:10rem;
+    height:36rem;
+    width:17rem;
     border-radius:12px;
     padding:0.5rem;
     margin-top:1rem;
@@ -21,9 +21,10 @@
 }
 
 .section-content{
-    font-size: 0.72em;
+    font-size: 1.3em;
     color:white;
     font-family: var(--font-family);
+    font-weight: 100;
 
 }
 
@@ -38,20 +39,24 @@
 }
 
 .heading-1{
-    color:white;
+    color:#FFFFFF;
     font-family: var(--font-family);
+    font-size:1.9em;
+    margin-bottom: 1rem;
 }
 
 .heading-2{
     color:white;
     margin-bottom: 1rem;
     font-family: var(--font-family);
-    margin-bottom:2rem;   
+    margin-bottom:2rem; 
+    font-size:2em;  
 }
 
 .title{
     font-weight:700;
     font-family: var(--font-family);
+    font-size: 1.1em;
 }
 
 .project-heading{
@@ -61,12 +66,80 @@
     margin-bottom:1rem;
 }
 
+@media (min-width:319px) and (max-width:1200px){
+    div.section-container{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .section-1{
+        width:10rem;
+        height:20rem;
+    }
+
+    div.section-2{
+         width:10rem;
+        height:20rem;
+    }
+
+    div.section-3{
+    width:10rem;
+        height:20rem;
+        
+    }
+
+    div.section-4{
+        width:10rem;
+        height:20rem;
+    }
+
+    .title{
+        font-size:0.8em;
+        margin-bottom:0.2rem;
+    }
+    
+    div.projects-container{
+        width:23.7rem;
+        height:49rem;
+
+    
+
+    }
+
+    h2.heading-3{
+        font-size:0.9em;
+        margin-bottom:0.5rem;
+    }
+
+    span.info-2{
+        font-size:0.8rem;
+    }
+
+    span.section-content{
+        font-size:0.8rem;
+    }
+
+    h2.heading-2{
+        font-size:0.9em;
+    }
+
+    h2.heading-1{
+        font-size:0.8rem;
+    }
+
+    h1.main-heading{
+        position:relative;
+        left:8rem;
+    }
+}
+
 /*Styling section-2*/
 
 .section-2{
     background-color: #E7F0EC;
-    height:19rem;
-    width:10rem;
+    height:36rem;
+    width:17rem;
     border-radius:12px;
     margin-left:1rem;
     padding:0.5rem;
@@ -74,17 +147,22 @@
     margin-top:1rem;
 }
 
-.title-2{
-    color:black;
-    font-weight:700;
-    font-family: var(--font-family);
 
-}
+
 
 .info-2{
     color:black;
     font-family: var(--font-family);
+    font-size:1.4em;
+
 }
+.section-container{
+    display:flex;
+    flex-direction: row;
+}
+
+
+
 
 .section-container{
     display: flex;
@@ -94,8 +172,8 @@
 
 .section-3{
     background-color: #E7F0EC;
-    height:19rem;
-    width:10rem;
+    height:36rem;
+    width:17rem;
     border-radius:12px;
     margin-left:1rem;
     padding:0.5rem;
@@ -105,12 +183,14 @@
 .heading-3{
     color:black;
     font-family: var(--font-family);
+    font-size:1.8em;
+    margin-bottom: 1rem;
 }
 
 .section-4{
     background-color: #E7F0EC;
-    height:19rem;
-    width:10rem;
+    height:36rem;
+    width:17rem;
     border-radius:12px;
     margin-left:1rem;
     padding:0.5rem;
@@ -118,8 +198,9 @@
     margin-top:1rem;
 }
 
-.section-container-2{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.main-heading{
+    font-size:2em;
+    position:relative;
+    left:36rem;
 }
+
