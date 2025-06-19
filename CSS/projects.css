@@ -2,7 +2,7 @@
 /*Styling of Container-1*/
 .projects-container{
     height: 47rem;
-    width:80.2rem;
+    width:114.9rem;
     background-color:var(--backgroung-color);
     border-radius:12px;
     margin-left:1rem;
@@ -10,6 +10,11 @@
     padding:1em;
 }
 
+@media (min-width:1200px){
+     div.projects-container{
+        margin-left:14rem;
+     }
+}
 .section-1{
     background-color: #4A8B70;
     height:36rem;
@@ -102,6 +107,7 @@
     div.projects-container{
         width:23.7rem;
         height:49rem;
+        
 
     
 
