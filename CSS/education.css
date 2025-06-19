@@ -88,6 +88,7 @@
         height:62rem;
         margin-top:2.6rem;
         padding:2rem;
+        border-radius: 30px;
         
     }
 
@@ -129,7 +130,7 @@
         }
     
     h1#main-heading{
-        font-size:5em;
+        font-size:3em;
     }
     
 }
