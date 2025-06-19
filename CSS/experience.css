@@ -83,6 +83,7 @@ exp-section-container-3{
     margin-top:1rem;
 }
 
+
 @media (min-width:1200px){
     .exp-container{
         width:116.9rem;
@@ -93,6 +94,7 @@ exp-section-container-3{
         position:relative;
         bottom:62rem;
         padding:3rem;
+        border-radius: 30px;
         
     }
 
@@ -109,7 +111,7 @@ exp-section-container-3{
         font-size:3em;
     }
 
-    p.date-span{
+    p.date-span-2{
         font-size:2em;
 
     }
