@@ -1,19 +1,20 @@
 .experience-container{
     background-color:#FFFFFF;
     height:37rem;
-    width:25rem;
+    width:23.7rem;
      border-radius:12px;
     margin-left:1rem;
     margin-top:1rem;
     padding:1rem;
     position: relative;
-    right:2rem;
+    right:0.5rem;
+
    
     
 }
 
 .exp-section-container-1{
-    width:22rem;
+    width:20rem;
     height:25em;
     background-color: #4A8B70;
     border-radius:12px;
