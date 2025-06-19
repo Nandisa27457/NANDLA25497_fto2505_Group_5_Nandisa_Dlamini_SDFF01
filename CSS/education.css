@@ -6,6 +6,7 @@
     margin-left:1rem;
     margin-top:1rem;
     padding:1rem;
+    
 }
 
 
@@ -14,7 +15,7 @@
 }
 
 .edu-section-container-1{
-    width:19rem;
+    width:22rem;
     height:20rem;
     background-color: #4A8B70;
     border-radius:12px;
@@ -81,7 +82,54 @@
 
 @media (min-width:1200px){
     .education-container{
-        width:63rem;
+        width:94rem;
+       position:relative;
+       left:12rem;
+        height:62rem;
+        margin-top:2.6rem;
+        padding:2rem;
         
     }
+
+    div.edu-section-container-1{
+      width:90rem;
+    }
+
+    div.list-content{
+        font-size:2em;
+    }
+
+    h2.section-head{
+        font-size:3em;
+    }
+
+    p.date-span{
+        font-size:2em;
+
+    }
+    span{
+        font-size:2em;
+    }
+    
+    div.edu-section-container-2{
+        width:90rem;
+        
+    }
+    
+    div.edu-section-container-3{
+        width:90rem;
+    }
+
+    h2.section-head{
+        font-size:2em;
+    }
+
+    p{
+        font-size: 2em;
+        }
+    
+    h1#main-heading{
+        font-size:5em;
+    }
+    
 }
