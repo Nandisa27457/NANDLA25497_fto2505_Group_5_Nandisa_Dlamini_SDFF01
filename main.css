@@ -67,22 +67,23 @@ h1{
     width:40rem;
     height:18rem;
     margin-left:14rem;
+    border-radius: 30px;
   }
   #Bio-container{
     width:100rem;
     height:18rem;
     margin-right:4rem;
-    
+    border-radius: 30px;
     
     
   }
   h1{
-    font-size:2.25rem;
+    font-size:3rem;
     margin-top:2rem;
   }
  
-  .bio-text{
-    font-size:1.45em; 
+  p.bio-text{
+    font-size:2em; 
   }
   
    
@@ -98,6 +99,7 @@ h1{
     margin-left:1rem;
     margin-top:1rem;
     padding:0.75rem;
+    border-radius: 30px;
   
 }
 
@@ -165,8 +167,8 @@ height:1rem;
 
 }
 
-  .Prof-heading{
-    font-size:2em;
+  h2.Prof-heading{
+    font-size:2.5em;
   }
   
 .sub-headings{
