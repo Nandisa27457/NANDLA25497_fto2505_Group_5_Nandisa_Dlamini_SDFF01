@@ -1,7 +1,7 @@
 .education-container{
     background-color:#FFFFFF;
     height:56rem;
-    width:25rem;
+    width:23.7rem;
      border-radius:12px;
     margin-left:1rem;
     margin-top:1rem;
@@ -14,7 +14,7 @@
 }
 
 .edu-section-container-1{
-    width:22rem;
+    width:19rem;
     height:20rem;
     background-color: #4A8B70;
     border-radius:12px;
@@ -77,4 +77,11 @@
     font-size:0.77em;
     padding:1rem;
     margin-top:1rem;
+}
+
+@media (min-width:1200px){
+    .education-container{
+        width:63rem;
+        
+    }
 }
