@@ -1,26 +1,59 @@
-.experience-container{
+.exp-container{
     background-color:#FFFFFF;
-    height:37rem;
+    height:42rem;
     width:23.7rem;
      border-radius:12px;
     margin-left:1rem;
     margin-top:1rem;
     padding:1rem;
-    position: relative;
-    right:0.5rem;
-
-   
     
+}
+.main-heading{
+    margin-top:1rem;
 }
 
 .exp-section-container-1{
-    width:20rem;
-    height:25em;
+    width:22rem;
+    height:20rem;
     background-color: #4A8B70;
     border-radius:12px;
+    display:grid;
     color:white;
+    display: flex;
     font-size:0.77em;
     padding:1rem;
+}
+
+.header-content{
+    margin-top:3rem;
+    margin-left:2rem;
+}
+
+.date-span{
+    margin-bottom:1rem;
+    font-weight: 500;
+    font-family:Poppins;    
+}
+
+.section-head{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size:1.5em;
+}
+
+#bullets li{
+    list-style-type:circle;
+    
+}
+
+.list-content{
+    margin-left:2.5rem;
+    
+}
+
+.list-content{
+    margin-left:2.5rem;
+    
 }
 
 .exp-section-container-2{
@@ -34,9 +67,76 @@
     font-size:0.77em;
     padding:1rem;
     margin-top:1rem;
-    margin-right:4rem;
-    position:relative;
-    right:1rem;
+
 }
 
+exp-section-container-3{
+    background-color: #E7F0EC;
+    width:22rem;
+    height:15rem;
+    border-radius:12px;
+    display:grid;
+    color:black;
+    display: flex;
+    font-size:0.77em;
+    padding:1rem;
+    margin-top:1rem;
+}
 
+@media (min-width:1200px){
+    .exp-container{
+        width:116.9rem;
+       position:relative;
+       left:12rem;
+        height:54rem;
+        margin-top:2.6rem;
+        position:relative;
+        bottom:62rem;
+        padding:3rem;
+        
+    }
+
+    div.exp-section-container-1{
+      width:110.5rem;
+    }
+
+    div.list-content-2{
+        font-size:3em;
+        margin-left:5rem;
+    }
+
+    h2.section-head{
+        font-size:3em;
+    }
+
+    p.date-span{
+        font-size:2em;
+
+    }
+    span{
+        font-size:2em;
+    }
+    
+    div.exp-section-container-2{
+        width:110.5rem;
+        height: 20rem;
+        
+    }
+    
+    div.exp-section-container-3{
+        width:110.5rem;
+    }
+
+    h2.section-head-2{
+        font-size:2em;
+    }
+
+    p{
+        font-size: 2em;
+        }
+    
+    h1#main-heading-2{
+        font-size:3em;
+    }
+    
+}
