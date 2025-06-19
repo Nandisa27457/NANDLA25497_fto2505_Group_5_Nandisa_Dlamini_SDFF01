@@ -5,7 +5,7 @@
 }
 
 
-img{
+.Profile-image{
   width:9rem;
   height:9rem;
   border-radius:12px;
@@ -63,14 +63,16 @@ h1{
     }
   }
   
-  img{
-    width:18rem;
+  img.Profile-image{
+    width:40rem;
     height:18rem;
+    margin-left:14rem;
   }
   #Bio-container{
-    width:65rem;
+    width:100rem;
     height:18rem;
-    margin-right:3rem;
+    margin-right:4rem;
+    
     
     
   }
@@ -157,7 +159,9 @@ height:1rem;
 
 #Proficiency-container{
   height:20rem;
-   width:30rem;
+   width:43rem;
+   margin-left:14rem;
+   margin-top:3rem;
 
 }
 
