@@ -13,7 +13,7 @@ img{
   margin-left:1rem;
 }
 
-.Bio-container{
+#Bio-container{
   height:9rem;
   width:14rem;
   background-color:var(--backgroung-color);
@@ -51,10 +51,45 @@ h1{
   font-family: Poppins;
 }
 
+/* Media Query for desktop screen for Profile image and Bio section*/
+@media (min-width:1200px){
+  body{
+    background-image: url(background-1.png); 
+  }
+
+  @media (min-width:400px){
+    body{
+      background-image: url(background-1.png);
+    }
+  }
+  
+  img{
+    width:18rem;
+    height:18rem;
+  }
+  #Bio-container{
+    width:65rem;
+    height:18rem;
+    margin-right:3rem;
+    
+    
+  }
+  h1{
+    font-size:2.25rem;
+    margin-top:2rem;
+  }
+ 
+  .bio-text{
+    font-size:1.45em; 
+  }
+  
+   
+}
+
 
 /*Styling of Profiency*/
-.Proficiency-container{
-    width:25rem;
+#Proficiency-container{
+    width:23.7rem;
     height:13rem;
     background-color:var(--backgroung-color);
     border-radius:12px;
@@ -64,11 +99,11 @@ h1{
   
 }
 
-h2{
+.Prof-heading{
   font-weight: 600;
   margin-bottom:1rem;
   font-family:var(--font-family);
-  font-size:20px;
+  font-size:1.3em;
 }
 
 .sub-headings{
@@ -116,4 +151,55 @@ height:1rem;
 
 .language{
   margin-bottom:4px;
+}
+
+@media (min-width:1200px){
+
+#Proficiency-container{
+  height:20rem;
+   width:30rem;
+
+}
+
+  .Prof-heading{
+    font-size:2em;
+  }
+  
+.sub-headings{
+  font-size:1.6em;
+}
+
+.language{
+  font-size:1.5em;
+}
+
+.progress-1{
+  margin-bottom:1rem;
+  margin-top:1rem;
+  margin-left:2rem;
+  width: 18rem;
+  height:1.5rem;
+  border-radius:7px;
+}
+.progress-2{
+  margin-bottom:1.5rem;
+  margin-left:2rem;
+  width: 14rem;
+  height:1.5rem;
+  border-radius:7px;
+}
+
+.progress-3{
+margin-bottom:1.5rem;
+margin-left:2rem;
+width: 8rem;
+  height:1.5rem;
+  border-radius:7px;
+}
+.progress-4{
+  margin-left:2rem;
+  width: 9rem;
+  height:1.5rem;
+  border-radius:7px;
+}
 }
