@@ -1,7 +1,7 @@
 
 .skill{
     height: 1rem;
-    width: 5rem;
+    width:5rem;
     background-color:rgba(0, 128, 43, 0.107);
     padding:0.52rem;
     border-radius:20px;
@@ -26,10 +26,13 @@
 }
 
 @media (min-width:1200px){
-    .skills-container{
-        margin-top:1rem;
-        height:20rem;
-        width:47.4rem;
+    div.skills-container{
+       height:20rem;
+        width:68rem;
+        position: relative;
+        left:0.3rem;
+        margin-top:3rem;
+        
     
     }
     .skills-heading{
