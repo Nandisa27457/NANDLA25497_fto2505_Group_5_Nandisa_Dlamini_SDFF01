@@ -1,12 +1,12 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" width="200"></a>
   <br>
   Portfolio Piece
   <br>
 </h1>
-
+<p>[Presentation on loom](https://www.loom.com/share/4ab89d226b40476bae12fa76024f020e?sid=2b70c620-8f41-4631-b3fb-1650419ba5e0)</p>
 <h4 align="center">This resume project serves as an interactive, web-based portfolio and professional summary, designed to showcase front-end development skills and past experience. Built using **HTML5**, **CSS3**, **Bootstrap**, and **Tailwind CSS**, the project combines clean design with practical functionality to present qualifications in a modern, engaging format.
 .</h4>
 
